@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-2 lg:col-span-1">
             <div className="flex items-center gap-2.5 mb-6">
               <Image
-                src="/images/logo/logo.png"
+                src="/images/logo/logo.webp"
                 alt="YACO Logo"
                 width={300}
                 height={120}

@@ -99,46 +99,6 @@ export const PRODUCTS: Product[] = [
     ]
   },
 
-  // Seat Covers - Micro fibre seat covers
-  {
-    name: "Elevated Material",
-    style: "Yaco Plus",
-    slug: "elevated-microfibre-seat-covers",
-    category: "seat-covers",
-    description: "Sophisticated micro-fibre with an elevated texture and premium look.",
-    longDescription: "Our Elevated Micro Fibre series offers a unique texture that mimics high-end automotive suedes. It provides excellent grip and a sophisticated, non-reflective finish.",
-    features: ["Non-Slip Surface", "Suede Texture", "Heat Neutral", "Luxury Aesthetic"],
-    specifications: [
-      { label: "Material", value: "Elevated Micro-Fibre" },
-      { label: "Grip", value: "High-Friction" }
-    ],
-    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
-    gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG"
-    ]
-  },
-  {
-    name: "Luxury Feel",
-    style: "Yaco Plus",
-    slug: "luxury-feel-microfibre-seat-covers",
-    category: "seat-covers",
-    description: "The softest micro-fibre in our collection for a truly luxurious interior experience.",
-    longDescription: "Luxury Feel is designed for ultimate tactile comfort. The extremely fine fibers create a surface that is incredibly soft to the touch while maintaining automotive-grade durability.",
-    features: ["Ultra Soft", "Premium Suede Finish", "Breathable", "Elegant Look"],
-    specifications: [
-      { label: "Material", value: "Elite Micro-Fibre" },
-      { label: "Softness", value: "Grade A+" }
-    ],
-    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
-    gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG"
-    ]
-  },
-
   // Seat Covers - Yaco Prime
   {
     name: "Custom Made GT",
@@ -180,6 +140,46 @@ export const PRODUCTS: Product[] = [
       "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00038.JPG",
       "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00039.JPG",
       "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4955.JPG"
+    ]
+  },
+
+  // Seat Covers - Micro fibre seat covers
+  {
+    name: "Elevated Material",
+    style: "Yaco Plus",
+    slug: "elevated-microfibre-seat-covers",
+    category: "seat-covers",
+    description: "Sophisticated micro-fibre with an elevated texture and premium look.",
+    longDescription: "Our Elevated Micro Fibre series offers a unique texture that mimics high-end automotive suedes. It provides excellent grip and a sophisticated, non-reflective finish.",
+    features: ["Non-Slip Surface", "Suede Texture", "Heat Neutral", "Luxury Aesthetic"],
+    specifications: [
+      { label: "Material", value: "Elevated Micro-Fibre" },
+      { label: "Grip", value: "High-Friction" }
+    ],
+    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
+    gallery: [
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG"
+    ]
+  },
+  {
+    name: "Luxury Feel",
+    style: "Yaco Plus",
+    slug: "luxury-feel-microfibre-seat-covers",
+    category: "seat-covers",
+    description: "The softest micro-fibre in our collection for a truly luxurious interior experience.",
+    longDescription: "Luxury Feel is designed for ultimate tactile comfort. The extremely fine fibers create a surface that is incredibly soft to the touch while maintaining automotive-grade durability.",
+    features: ["Ultra Soft", "Premium Suede Finish", "Breathable", "Elegant Look"],
+    specifications: [
+      { label: "Material", value: "Elite Micro-Fibre" },
+      { label: "Softness", value: "Grade A+" }
+    ],
+    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
+    gallery: [
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
+      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG"
     ]
   },
 
@@ -483,10 +483,10 @@ export const CATEGORIES: Category[] = [
       "cloth-em-seat-covers",
       "rexin-em-seat-covers",
       "yaco-plus-seat-covers",
-      "elevated-microfibre-seat-covers",
-      "luxury-feel-microfibre-seat-covers",
       "custom-made-gt-seat-covers",
-      "upgraded-prime-seat-covers"
+      "upgraded-prime-seat-covers",
+      "elevated-microfibre-seat-covers",
+      "luxury-feel-microfibre-seat-covers"
     ],
     subCategories: [
       {

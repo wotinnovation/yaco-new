@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import ServicesGrid from "@/components/ServicesGrid";
 import WhyChoose from "@/components/WhyChoose";
-import BusSeatInteriors from "@/components/BusSeatInteriors";
+import VanSeatInteriors from "@/components/VanSeatInteriors";
 import FAQ from "@/components/faq";
 import ProductsComponent from "@/components/ProductsComponent";
 import Footer from "@/components/Footer";
@@ -21,7 +21,7 @@ export default function Home() {
       <Hero onBookingClick={() => setIsBookingOpen(true)} />
       <ServicesGrid />
       <ProductsComponent />
-      <BusSeatInteriors />
+      <VanSeatInteriors />
       <WhyChoose />
       <FAQ />
       <Instagram />

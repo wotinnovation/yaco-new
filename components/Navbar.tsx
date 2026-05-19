@@ -127,7 +127,7 @@ export default function Navbar({ onBookingClick }: { onBookingClick?: () => void
           {/* Logo */}
           <a href="/" className="flex items-center group">
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo.webp"
               alt="YACO Logo"
               width={300}
               height={120}
