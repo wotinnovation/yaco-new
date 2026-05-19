@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-red: #e01c1c;
+  --color-red-dark: #cc0000;
+  --color-bg: #0a0a0a;
+  --color-bg-card: #1a1a1a;
+  --color-bg-light: #222222;
+  --color-text: #ffffff;
+  --color-text-muted: #999999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-barlow), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-red);
+  border-radius: 2px;
+}
+
+/* Scroll to top sidebar */
+.scroll-sidebar {
+  position: fixed;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 50;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #666;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.scroll-sidebar:hover {
+  color: var(--color-red);
+}
+
+.scroll-sidebar::after {
+  content: '';
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--color-red), transparent);
+}
+
+/* Animated counter */
+.counter-num {
+  font-family: var(--font-bebas), sans-serif;
+  font-size: 3rem;
+  color: white;
+  line-height: 1;
+}
+
+/* Section label style */
+.section-label {
+  font-size: 11px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #666;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+.section-label::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, var(--color-red), transparent);
+}
+
+/* FAQ accordion */
+.faq-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  transition: border-color 0.3s;
+}
+
+.faq-item:hover {
+  border-bottom-color: rgba(224, 28, 28, 0.4);
+}
+
+/* Service card hover */
+.service-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.service-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(224, 28, 28, 0.0);
+  transition: background 0.4s ease;
+}
+
+.service-card:hover::after {
+  background: rgba(224, 28, 28, 0.15);
+}
+
+.service-card img {
+  transition: transform 0.6s ease;
+}
+
+.service-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Marquee */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 25s linear infinite;
+  display: flex;
+  white-space: nowrap;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* Gradient overlay on hero */
+.hero-gradient {
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.5) 40%,
+      rgba(0, 0, 0, 0.8) 80%,
+      rgba(10, 10, 10, 1) 100%);
+}
+
+/* Red underline decoration */
+.red-underline {
+  position: relative;
+}
+
+.red-underline::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--color-red);
+}
+
+/* Stats number glow */
+.stat-number {
+  text-shadow: 0 0 30px rgba(224, 28, 28, 0.3);
+}
