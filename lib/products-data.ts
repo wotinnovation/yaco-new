@@ -70,13 +70,12 @@ export const PRODUCTS: Product[] = [
       { label: "Material", value: "Premium Rexin" },
       { label: "Finish", value: "Matte / Semi-Gloss" }
     ],
-    image: "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00038.JPG",
+    image: "/images/products/SEAT%20COVER/SEATX%20STANDARD%20COLLECTION/rexin%20em/_MG_5587.jpg",
     gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00038.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00037.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00039.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4954.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4955.JPG"
+      "/images/products/SEAT%20COVER/SEATX%20STANDARD%20COLLECTION/rexin%20em/_MG_5587.jpg",
+      "/images/products/SEAT%20COVER/SEATX%20STANDARD%20COLLECTION/rexin%20em/DSC01329-Copy.JPG",
+      "/images/products/SEAT%20COVER/SEATX%20STANDARD%20COLLECTION/rexin%20em/IMG_0975.jpg",
+      "/images/products/SEAT%20COVER/SEATX%20STANDARD%20COLLECTION/rexin%20em/IMG_978703.jpg"
     ]
   },
   {
@@ -143,45 +142,7 @@ export const PRODUCTS: Product[] = [
     ]
   },
 
-  // Seat Covers - Micro fibre seat covers
-  {
-    name: "Elevated Material",
-    style: "Yaco Plus",
-    slug: "elevated-microfibre-seat-covers",
-    category: "seat-covers",
-    description: "Sophisticated micro-fibre with an elevated texture and premium look.",
-    longDescription: "Our Elevated Micro Fibre series offers a unique texture that mimics high-end automotive suedes. It provides excellent grip and a sophisticated, non-reflective finish.",
-    features: ["Non-Slip Surface", "Suede Texture", "Heat Neutral", "Luxury Aesthetic"],
-    specifications: [
-      { label: "Material", value: "Elevated Micro-Fibre" },
-      { label: "Grip", value: "High-Friction" }
-    ],
-    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
-    gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG"
-    ]
-  },
-  {
-    name: "Luxury Feel",
-    style: "Yaco Plus",
-    slug: "luxury-feel-microfibre-seat-covers",
-    category: "seat-covers",
-    description: "The softest micro-fibre in our collection for a truly luxurious interior experience.",
-    longDescription: "Luxury Feel is designed for ultimate tactile comfort. The extremely fine fibers create a surface that is incredibly soft to the touch while maintaining automotive-grade durability.",
-    features: ["Ultra Soft", "Premium Suede Finish", "Breathable", "Elegant Look"],
-    specifications: [
-      { label: "Material", value: "Elite Micro-Fibre" },
-      { label: "Softness", value: "Grade A+" }
-    ],
-    image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
-    gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6129.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6128.JPG"
-    ]
-  },
+
 
   // Floor Mats
   {
@@ -256,12 +217,12 @@ export const PRODUCTS: Product[] = [
       { label: "Designs", value: "4 Distinct Patterns" },
       { label: "Coverage", value: "5D Side-Wall Protection" }
     ],
-    image: "/images/products/7D%20FLOOR%20MATS/0002.jpg",
+    image: "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
     gallery: [
-      "/images/products/7D%20FLOOR%20MATS/0002.jpg",
-      "/images/products/7D%20FLOOR%20MATS/0941.jpg",
-      "/images/products/7D%20FLOOR%20MATS/IMG_2291.JPG",
-      "/images/products/7D%20FLOOR%20MATS/patrol-PN.jpeg"
+      "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
+      "/images/products/5D%20Floor%20Mats/IMG_2668phot.jpeg",
+      "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0010.jpg.jpeg",
+      "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0011.jpg.jpeg"
     ]
   },
   {
@@ -282,11 +243,11 @@ export const PRODUCTS: Product[] = [
       { label: "Designs", value: "3 Premium Styles" },
       { label: "Layers", value: "7-Layer Composite" }
     ],
-    image: "/images/products/7D%20FLOOR%20MATS/IMG_2291.JPG",
+    image: "/images/products/7D%20FLOOR%20MATS/0002.jpg",
     gallery: [
+      "/images/products/7D%20FLOOR%20MATS/0002.jpg",
       "/images/products/7D%20FLOOR%20MATS/IMG_2291.JPG",
       "/images/products/7D%20FLOOR%20MATS/patrol-PN.jpeg",
-      "/images/products/7D%20FLOOR%20MATS/0002.jpg",
       "/images/products/7D%20FLOOR%20MATS/0941.jpg"
     ]
   },
@@ -362,11 +323,12 @@ export const PRODUCTS: Product[] = [
       { label: "Material", value: "Automotive Suede / Fabric" },
       { label: "Components", value: "Main Roof + A/B/C Pillars" }
     ],
-    image: "/images/products/UPHOLSTERY/ROOF/civic-red-after.jpg",
+    image: "/images/products/UPHOLSTERY/ROOF/_MG_2484.jpg",
     gallery: [
-      "/images/products/UPHOLSTERY/ROOF/civic-red-after.jpg",
       "/images/products/UPHOLSTERY/ROOF/_MG_2484.jpg",
-      "/images/products/UPHOLSTERY/ROOF/civic-red-before.jpg"
+      "/images/products/UPHOLSTERY/ROOF/civic-red-after.jpg",
+      "/images/products/UPHOLSTERY/ROOF/civic-red-before.jpg",
+      "/images/products/UPHOLSTERY/ROOF/_MG_3227copy.jpg.jpeg"
     ]
   },
   {
@@ -484,9 +446,7 @@ export const CATEGORIES: Category[] = [
       "rexin-em-seat-covers",
       "yaco-plus-seat-covers",
       "custom-made-gt-seat-covers",
-      "upgraded-prime-seat-covers",
-      "elevated-microfibre-seat-covers",
-      "luxury-feel-microfibre-seat-covers"
+      "upgraded-prime-seat-covers"
     ],
     subCategories: [
       {
@@ -501,7 +461,7 @@ export const CATEGORIES: Category[] = [
         name: "Micro Fibre Seat Covers",
         description: "Elevated materials and luxury feel for a sophisticated interior.",
         image: "/images/products/SEAT%20COVER/YACO%20PLUS/_MG_6126.JPG",
-        products: ["yaco-plus-seat-covers", "elevated-microfibre-seat-covers", "luxury-feel-microfibre-seat-covers"]
+        products: ["yaco-plus-seat-covers"]
       },
       {
         id: "yaco-prime",
@@ -556,7 +516,7 @@ export const CATEGORIES: Category[] = [
         id: "5d-mats",
         name: "5D Floor Mats",
         description: "High-wall protection with 4 unique design patterns.",
-        image: "/images/products/7D%20FLOOR%20MATS/0002.jpg",
+        image: "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
         products: ["5d-floor-mats"]
       },
       {
