@@ -120,27 +120,6 @@ export const PRODUCTS: Product[] = [
       "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4955.JPG"
     ]
   },
-  {
-    name: "Upgraded Material",
-    style: "Yaco Prime",
-    slug: "upgraded-prime-seat-covers",
-    category: "seat-covers",
-    description: "Premium performance materials upgraded for maximum durability and style.",
-    longDescription: "The Upgraded Material series within Yaco Prime uses our most advanced synthetic hides, engineered to withstand extreme conditions while looking impeccable.",
-    features: ["Extreme Durability", "Premium Grain", "Chemical Resistant", "Fade Proof"],
-    specifications: [
-      { label: "Material", value: "Upgraded Prime Synthetic" },
-      { label: "Warranty", value: "5 Years" }
-    ],
-    image: "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4954.JPG",
-    gallery: [
-      "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4954.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00037.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00038.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00039.JPG",
-      "/images/products/SEAT%20COVER/YACO%20PRIME/_MG_4955.JPG"
-    ]
-  },
 
 
 
@@ -445,8 +424,7 @@ export const CATEGORIES: Category[] = [
       "cloth-em-seat-covers",
       "rexin-em-seat-covers",
       "yaco-plus-seat-covers",
-      "custom-made-gt-seat-covers",
-      "upgraded-prime-seat-covers"
+      "custom-made-gt-seat-covers"
     ],
     subCategories: [
       {
@@ -468,7 +446,7 @@ export const CATEGORIES: Category[] = [
         name: "Yaco Prime",
         description: "Custom made GT seat covers with upgraded high-performance materials.",
         image: "/images/products/SEAT%20COVER/YACO%20PRIME/DSC00037.JPG",
-        products: ["custom-made-gt-seat-covers", "upgraded-prime-seat-covers"]
+        products: ["custom-made-gt-seat-covers"]
       }
     ],
     pillars: [
