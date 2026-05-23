@@ -42,6 +42,7 @@ const SERVICES = [
     desc: "Professional interior detailing service",
     image: "/images/service-grid/CLEANING.jpg",
     imageAlt: "Interior deep cleaning",
+    comingSoon: true,
   },
 ];
 
@@ -105,9 +106,16 @@ export default function ServicesGrid() {
 
                 {/* Content */}
                 <div className="absolute inset-0 p-4 sm:p-8 flex flex-col justify-end">
-                  <span className="text-[#e01c1c] text-[10px] sm:text-sm font-bold tracking-widest uppercase mb-1 sm:mb-2 transform md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-500">
-                    {service.id}
-                  </span>
+                  <div className="flex items-center gap-2 mb-1 sm:mb-2 transform md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-500">
+                    <span className="text-[#e01c1c] text-[10px] sm:text-sm font-bold tracking-widest uppercase">
+                      {service.id}
+                    </span>
+                    {service.comingSoon && (
+                      <span className="px-2 py-0.5 bg-[#e01c1c] text-white text-[9px] sm:text-[10px] font-bold uppercase tracking-wider rounded-sm">
+                        Coming Soon
+                      </span>
+                    )}
+                  </div>
                   <h3 className="text-white text-lg sm:text-2xl xl:text-3xl font-bold mb-1 sm:mb-3 transform md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-500 delay-75">
                     {service.title}
                   </h3>

@@ -33,6 +33,7 @@ export interface Category {
   }[];
   products: string[]; // Slugs of products in this category
   subCategories?: SubCategory[];
+  comingSoon?: boolean;
 }
 
 export const PRODUCTS: Product[] = [
@@ -568,9 +569,10 @@ export const CATEGORIES: Category[] = [
   {
     id: "deep-cleaning",
     label: "04. Deep Cleaning",
-    title: "Advanced Interior Deep Cleaning – Coming Soon",
+    title: "Advanced Interior Deep Cleaning",
     href: "/products/deep-cleaning",
     image: "/images/seat/clean1.jpg",
+    comingSoon: true,
     products: [],
     pillars: [
       {

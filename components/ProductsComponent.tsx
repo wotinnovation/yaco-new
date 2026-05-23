@@ -66,7 +66,14 @@ function ShowcaseBlock({ category }: { category: typeof SHOWCASE_DATA[0] }) {
 
         {/* Header */}
         <div className="mb-8 text-center md:text-left">
-          <p className="section-label mb-4">{category.label}</p>
+          <div className="flex items-center justify-center md:justify-start gap-4 mb-4">
+            <p className="section-label mb-0">{category.label}</p>
+            {category.comingSoon && (
+              <span className="px-3 py-1 bg-[#e01c1c]/10 text-[#e01c1c] border border-[#e01c1c]/20 rounded-full text-xs font-bold uppercase tracking-widest relative top-[-2px]">
+                Coming Soon
+              </span>
+            )}
+          </div>
           <h2
             className="text-gray-900 text-[clamp(2rem,4vw,3rem)] font-bold leading-tight uppercase"
             style={{ fontFamily: "var(--font-barlow)" }}
