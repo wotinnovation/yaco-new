@@ -196,12 +196,16 @@ export const PRODUCTS: Product[] = [
       { label: "Designs", value: "4 Distinct Patterns" },
       { label: "Coverage", value: "5D Side-Wall Protection" }
     ],
-    image: "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
+    image: "/images/products/5D%20Floor%20Mats/WhatsApp%20Image%202023-05-29%20at%2016.15.29.jpeg",
     gallery: [
+      "/images/products/5D%20Floor%20Mats/WhatsApp%20Image%202023-05-29%20at%2016.15.29.jpeg",
       "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
       "/images/products/5D%20Floor%20Mats/IMG_2668phot.jpeg",
       "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0010.jpg.jpeg",
-      "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0011.jpg.jpeg"
+      "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0011.jpg.jpeg",
+      "/images/products/5D%20Floor%20Mats/IMG-20230302-WA0008.jpg.jpeg",
+      "/images/products/5D%20Floor%20Mats/IMG_2657~photo.png",
+      "/images/products/5D%20Floor%20Mats/WhatsApp%20Image%202023-05-29%20at%2016.15.30.jpeg"
     ]
   },
   {
@@ -494,7 +498,7 @@ export const CATEGORIES: Category[] = [
         id: "5d-mats",
         name: "5D Floor Mats",
         description: "High-wall protection with 4 unique design patterns.",
-        image: "/images/products/5D%20Floor%20Mats/IMG_2661phot.jpeg",
+        image: "/images/products/5D%20Floor%20Mats/WhatsApp%20Image%202023-05-29%20at%2016.15.29.jpeg",
         products: ["5d-floor-mats"]
       },
       {

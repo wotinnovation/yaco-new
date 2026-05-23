@@ -48,6 +48,15 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
   };
 
   const galleryImages = getGalleryImages();
+  const galleryPage = Math.floor(activeImgIdx / 4);
+
+  useEffect(() => {
+    if (galleryImages.length <= 1) return;
+    const timer = setInterval(() => {
+      setActiveImgIdx((prev) => (prev + 1) % galleryImages.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [galleryImages.length]);
 
   // Animations refs
   const heroRef = useRef<HTMLDivElement>(null);
@@ -196,27 +205,29 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
             </div>
 
-            {/* Gallery Thumbnails */}
+            {/* Gallery Thumbnails with Slide Selector */}
             <div className="grid grid-cols-4 gap-3">
-              {galleryImages.map((img, i) => (
+              {galleryImages.slice(galleryPage * 4, (galleryPage + 1) * 4).map((img, idx) => {
+                const originalIndex = idx + galleryPage * 4;
+                return (
                 <div 
-                  key={i} 
-                  onClick={() => setActiveImgIdx(i)}
+                  key={originalIndex} 
+                  onClick={() => setActiveImgIdx(originalIndex)}
                   className={`aspect-square rounded-xl overflow-hidden border-2 cursor-pointer transition-all duration-300 bg-gray-100 relative group ${
-                    activeImgIdx === i ? "border-[#e01c1c] shadow-md scale-[0.98]" : "border-black/5 hover:border-black/20"
+                    activeImgIdx === originalIndex ? "border-[#e01c1c] shadow-md scale-[0.98]" : "border-black/5 hover:border-black/20"
                   }`}
                 >
                   <Image 
                     src={img}
-                    alt={`${product.name} view ${i + 1}`}
+                    alt={`${product.name} view ${originalIndex + 1}`}
                     fill
                     sizes="(max-width: 1024px) 25vw, 12vw"
                     className={`object-contain transition-opacity duration-300 ${
-                      activeImgIdx === i ? "opacity-100" : "opacity-60 group-hover:opacity-100"
+                      activeImgIdx === originalIndex ? "opacity-100" : "opacity-60 group-hover:opacity-100"
                     }`}
                   />
                 </div>
-              ))}
+              )})}
             </div>
           </div>
 
