@@ -190,7 +190,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
                 alt={product.name}
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover transition-all duration-700"
+                className="object-contain transition-all duration-700"
                 priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -211,7 +211,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ slug: 
                     alt={`${product.name} view ${i + 1}`}
                     fill
                     sizes="(max-width: 1024px) 25vw, 12vw"
-                    className={`object-cover transition-opacity duration-300 ${
+                    className={`object-contain transition-opacity duration-300 ${
                       activeImgIdx === i ? "opacity-100" : "opacity-60 group-hover:opacity-100"
                     }`}
                   />

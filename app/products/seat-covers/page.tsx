@@ -168,7 +168,7 @@ export default function SeatCoversPage() {
                               alt={product.name}
                               fill
                               sizes="(max-width: 768px) 50vw, 33vw"
-                              className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
+                              className="object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
                           </div>
@@ -225,7 +225,7 @@ export default function SeatCoversPage() {
                   alt={mat.title}
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                  className="object-contain group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 />
                 <div className="absolute bottom-6 left-6 z-20">
                   <h3 className="text-black text-3xl font-bold font-serif italic tracking-wide drop-shadow-sm">
